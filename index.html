@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <title>🎶🎵🎼</title>
+  <link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header role="banner">
+    <h1>Andrew Coda</h1>
+    <h2>🎶 What I've Been Listenting To 🎶</h2>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="newstuff.html">New Stuff</a></li>
+        <li><a href="oldstuff.html">Old Stuff</a></li>
+        <li><a href="otherstuff.html">Other Stuff</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main role="main">
+    <hr>
+    <div class="contentPanel">
+      <img src="images/beatles.gif" desc="The Beatles waving">
+      <p>This is my website for Comp 484 - Web Engineering. Here you'll find some music that I've recently been
+        listening to. Old stuff, new stuff, and some other music related things. Enjoy!!</p>
+    </div>
+    <hr>
+    <canvas id="myCanvas" width="100" height="100" style="border:1px solid #000000;"> <!-- Canvas element - allows user to create a custom canvas where drawings and other things can be 'drawn'. Here I have a script that makes a circle. -->
+      <script>
+        var c = document.getElementById("myCanvas");
+        var ctx = c.getContext("2d");
+        ctx.beginPath();
+        ctx.arc(50, 50, 40, 0, 2 * Math.PI);
+        ctx.stroke();
+      </script>
+    </canvas>
+    <p contenteditable="true">Say <kbd>hi:</kbd></p> <!-- The keyboard element styles text so it looks like a button on a keyboard. However, in the browsers I tried (chrome and safari) it just makes the text slightly more bold, and didn't give me the desired effect. -->
+    <hr>
+
+  </main>
+  <footer role="contentinfo">
+    <small>Website created by Andrew Coda - 2026</small> <!-- small element - used for website footer -->
+  </footer>
+</body>
+
+</html>

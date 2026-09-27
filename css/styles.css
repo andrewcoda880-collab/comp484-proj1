@@ -1,0 +1,66 @@
+html, body {
+	background: #fefcff; /* white */
+	margin: 0;
+}
+h1, h2, h3, h4, h5, h6, p {
+	margin: 0;
+	padding: 0;
+}
+h1, h2, h3, h4, h5, h6 {
+	color: rgb(0, 0, 0);
+}
+body {
+	font-family: 'Courier New', Courier, monospace;
+	font-size: 100%;
+	width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+	padding: 2.5% 2.5% 0;
+	background: white;
+	line-height: 1.8;
+}
+h1 {
+	font: 1.6em 'Courier New', Courier, sans-serif;
+	margin-bottom: .4em;
+	color: rgb(64, 64, 64);
+}
+h2 {
+	font: 3.2em 'Courier New', Courier, sans-serif;
+	margin-bottom: .2em;
+	color: black;
+}
+h3 {
+	font-size: 1.2em;
+	margin-bottom: .2em;
+	color: rgb(64, 64, 64);
+}
+
+h4 {
+	font-size: 1.2em;
+	margin-bottom: .2em;
+	color: rgb(127, 127, 127);
+}
+
+p {
+	margin-bottom: 1em;
+	color: black;
+}
+a {
+	color: rgb(84, 119, 184);
+}
+a:hover {
+	color: rgb(55, 66, 120);
+}
+
+
+.album {
+	display: flex;
+	align-items: center;
+	gap: 20px; 
+}
+
+.contentPanel {
+	display: flex;
+	align-items: center;
+	gap: 20px;
+}

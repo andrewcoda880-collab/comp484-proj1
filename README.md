@@ -6,3 +6,13 @@ In this project, I applied the HTML and CSS concepts learned in class to design 
 
 ## live demo: 
 https://andrewcoda880-collab.github.io/comp484-proj1/
+
+## elements I used:
+<small>
+<canvas>
+<kbd>
+
+attributes:
+contenteditable
+height
+width
